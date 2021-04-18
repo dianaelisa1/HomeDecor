@@ -1,0 +1,86 @@
+$color-blue: #4b5966;
+$color-bluegreen: #6c928f;
+$color-mid: #a8a18e;
+$color-dark: #7b7970;
+$color-light: #b1ae9c;
+$color-seafoam: #8c9d8c;
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+$color-linearjumbo: linear-gradient(to right, #6c928f, #a8a18e, #4b5966);
+
+$body-font: "Work Sans", sans-serif;
+$header-font: "Work Sans", sans-serif;
+
+body {
+    font-family: $body-font;    
+}
+
+h1, h2, h3 {
+    font-family: $header-font;
+}
+
+h2 {
+    color: $color-primary;
+}
+
+header {
+    h2 {
+        color: $color-bluegreen;
+    }
+}
+
+.site-footer {
+    background-image: linear-gradient($color-pale, white);
+    padding: 20px 0;
+}
+
+.jumbotron { 
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right #6c928f, #a8a18e, #4b5966);
+    color: white;
+}
+
+row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-color: $color-mid;
+}
+
+.tab-content {
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 10px;
+}
+
+.carousel-caption {
+    background-color: $color-black-transparent;
+}
+
+.carousel { 
+    border: solid $color-secondary;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
+#reserveModal {
+    .modal-header {
+            background-color: $color-teal;
+            color: white;
+        }
+}
+
+#loginModal {
+    .modal-header{
+            background-color: $color-mid;
+            color: white;
+        }
+}
