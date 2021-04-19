@@ -3,7 +3,6 @@ $color-secondary: #6c928f;
 $color-mid: #a8a18e;
 $color-dark: #7b7970;
 $color-light: #b1ae9c;
-$color-gray: gray
 $color-seafoam: #8c9d8c;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
 $color-linearjumbo: linear-gradient(to right, #6c928f, #a8a18e, #4b5966);
@@ -57,7 +56,7 @@ header h2 {
 }
 
 .carousel-caption {
-    background-color: #rgba (0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .carousel {
