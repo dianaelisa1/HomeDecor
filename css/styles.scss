@@ -19,16 +19,11 @@ h1, h2, h3 {
 }
 
 h2 {
-    color: #3046c5;
-}
-
-header h2 {
-    color: orange;
-    font-weight: bold;
+    color: $color-primary;
 }
 
 .site-footer {
-    background-image: linear-gradient(#CEC8FF, WHITE);
+    background-image: linear-gradient( #6c928f, #a8a18e);
     padding: 20px 0;
 }
 
@@ -60,6 +55,6 @@ header h2 {
 }
 
 .carousel {
-    border: solid $color-gray;
+    border: transparent;
 ;
 }
