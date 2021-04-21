@@ -121,6 +121,11 @@
                 </ul>
                 <!-- alternate search bar with form
                     
+
+
+
+
+                    
                 alternate way
                     <form class="navbar-form">
                         <input type="text" placeholder="Search" name="search">
@@ -218,7 +223,7 @@
         <div class="row row-content align-items-center">
             <div class="col col-sm-8 mx-auto">
                 <div class="card">
-                    <h3 class="card-header bg-light text-dark">Contact Us</h3>
+                    <h3 class="card-header bg-light text-dark">Return Orders</h3>
                     <div class="card-body">
                         <form id="contactusForm">
                             <div class="row form-group">
@@ -234,9 +239,15 @@
                                     </div>
                             </div>
                             <div class="row form-group">
-                                <label for="date" class="col-sm-4 col-form-label"> Message: </label>
+                                    <label for="email" class="col-sm-4 col-form-label"> Order Number: </label>
+                                    <div class="col">
+                                        <input type="email" class="form-control" id="InputOrderNum" aria-describedby="emailHelp" placeholder="Enter Order #">
+                                    </div>
+                            </div>
+                            <div class="row form-group">
+                                <label for="date" class="col-sm-4 col-form-label"> Reason For Return: </label>
                                 <div class="col"> 
-                                    <textarea class="form-control" name="Message Box" id="messagebox" cols="50" rows="8">Enter Message Here</textarea>
+                                    <textarea class="form-control" name="Message Box" id="messagebox" cols="50" rows="8">Enter reason...</textarea>
                                 </div>
                             </div>
                             <div class="row form-group">
