@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
+  <meta charset="utf-8" />  
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap stylesheet -->
@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Quicksand:wght@300&family=Train+One&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css"> 
+
     <title>Home Decor</title>
 </head>
 
@@ -112,7 +113,6 @@
                     <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
 
-                 
                     <li class="nav-item"><a class="nav-link" href="#">Mirrors</a>
                         <ul>
                             <li><a href="wallmirrors.html">Wall Mirrors</a></li>
@@ -171,9 +171,15 @@
                     </form>
                 </span>
                 
+                <!-- 
                 <span class="navbar-text ml-2">
-                    <a role="button" data-toggle="modal" id="signinButton"><i class="fa fa-sign-in"></i> Sign In </a>
+                    <a role="button" data-toggle="modal" id="signinButton"><i class="fa fa-sign-in"  href="signin.html"></i> Sign In</a>
                 </span>
+-->
+                <span class="nav-link navbar-text ml-2" >
+                   <a role="button" href="signin.html">Sign In</a>
+                </span>
+               
                 <span class="navbar-text ml-2">
                     <a role="button" data-toggle="modal" id="cartButton"><i class="fa fa-shopping-cart"></i> </i>Cart</a>
                 </span>
@@ -403,13 +409,19 @@
                 </div>
                 <hr>
             </div>
+  
+
         </footer>
         <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
         <script src="JS/scripts.js">  </script>
+
         
 </body>
+
+
+
 
 </html>
